@@ -20155,3 +20155,27 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.0ms | Allocations: 5880)
 
 
+Started GET "/" for ::1 at 2022-03-19 11:24:33 -0600
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 16.3ms | Allocations: 320)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.8ms | Allocations: 689)
+  Rendered layouts/_messages.html.erb (Duration: 0.3ms | Allocations: 189)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 88)
+Completed 200 OK in 92ms (Views: 87.2ms | ActiveRecord: 0.0ms | Allocations: 20638)
+
+
+Started GET "/" for ::1 at 2022-03-19 11:24:34 -0600
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 50)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 1.0ms | Allocations: 178)
+  Rendered layouts/_messages.html.erb (Duration: 0.0ms | Allocations: 17)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 22ms (Views: 17.7ms | ActiveRecord: 0.0ms | Allocations: 5178)
+
+
